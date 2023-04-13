@@ -1,0 +1,21 @@
+<nav> 
+    <div class="logo"><a routerLink="/" routerLinkACctive="active"><img src="./assets/BakeryLogo.png" alt=""></a></div>
+  <ul class="nav__ul">
+   <li><a routerLink="/">Home</a></li>
+   <li><a routerLink="/cakes">Cakes</a></li>
+   <li><a routerLink="/cookies">Cookies</a></li>
+   <li><a routerLink="/cupcakes">Cupcakes</a></li>
+   <li><a routerLink="/donuts">Donuts</a></li>
+  </ul>
+<mat-form-field>
+  <input matInput placeholder="search">
+</mat-form-field>
+    <ul class="nav__user">
+    <li><a *ngIf="user" routerLink="/gestion">Gestión</a></li> 
+    <li><a *ngIf="user" routerLink="/perfil">Perfil</a></li>
+    <li><a *ngIf="!user" routerLink="/login">Log In</a></li>
+    <li><a *ngIf="!user" routerLink="/registrar">Registro</a></li>
+    <li><a *ngIf="user" routerLink="/logout">Cerrar sesión</a></li>
+  </ul>
+  </nav>
+  

@@ -1,0 +1,11 @@
+<div class="container">
+    <img class="card-section" src="../../../../assets/BakeryLogo - cookies.png" alt="{{cookie?.name}}">
+    <h5>{{cookie?.name}}</h5>
+    <p>Descripción: {{cookie?.description}}</p>
+    <p>Unidad: {{cookie?.piece}}</p>
+    <div class="botones">
+        <button (click)="delete(cookie.id)">Borrar</button>
+        <button routerLink="/cookies" >Volver</button>
+       </div>
+    </div>
+    

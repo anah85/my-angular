@@ -1,0 +1,27 @@
+<div class="container">
+  <section class="card-section" *ngFor="let cake of cakesList">
+  <div class="card">
+    <img src="./assets/BakeryLogo - cakes.png" alt="{{cake.name}}">
+    <div class="card-header">
+      <h1>{{cake.name}}</h1>
+      <h2>{{cake.price}} €</h2>
+    </div>
+    <span class="hint-star star">
+      <i class="fa fa-star" aria-hidden="true"></i>
+      <i class="fa fa-star" aria-hidden="true"></i>
+      <i class="fa fa-star" aria-hidden="true"></i>
+      <i class="fa fa-star-half-o" aria-hidden="true"></i>
+      <i class="fa fa-star-o" aria-hidden="true"></i>
+    </span>
+    <div class="card-body">
+      <p>{{cake.size}}</p>
+      <p>{{cake.description}}</p>
+    </div>
+      <div class="card-footer">
+        <button routerLink="/cakes/{{cake.id}}" >ver más</button>
+        <button>Comprar</button>
+      </div>
+    </div>
+  </section>
+ 
+</div>

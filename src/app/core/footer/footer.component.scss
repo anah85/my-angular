@@ -1,0 +1,28 @@
+footer{
+    width: 100%;
+    text-decoration:none;
+    height: 270px;
+    font-family: arial;
+    background-color: rgb(251,207,223);
+    color:rgb(214,12,37)
+    }
+    .social, .copy{
+    margin-top: 20px;
+    display: flex;
+    justify-content: space-around;
+    }
+    .social__redes{
+        padding: 10px;
+    list-style:none;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    }
+    .social, li{
+    margin: 3px;
+    padding: 3px;
+    }
+    a{
+    text-decoration: none;
+    color:rgb(214,12,37)
+    }

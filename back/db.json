@@ -1,0 +1,261 @@
+{
+  "cakes": [
+    {
+      "id": 1,
+      "name": "Tarta de Chocolate",
+      "size": "Grande para 12 - 14 raciones",
+      "price": 35,
+      "description": "Por ahí se encuentran muchas tartas de chocolate, pero ninguna como la nuestra. Bizcocho jugoso de chocolate a base de cacao puro, cubierto con nuestro buttercream artesanal cremoso y chocolatoso. Tanto si eres chocolover como si no, esta tarta te volverá loco.",
+      "image": "https://www.pexels.com/es-es/foto/comida-oscuro-azucar-chocolate-4109998/",
+      "piece": "https://www.pexels.com/es-es/foto/comida-oscuro-azucar-leche-4109997/"
+    },
+    {
+      "id": 2,
+      "name": "Carrot Cake Vegana",
+      "size": "Media para 8 - 10 raciones",
+      "price": 25,
+      "description": "La opción vegana de nuestra tarta de zanahoria es un bizcocho especiado y jugoso, que, en vez de llevar la tradicional crema de queso, preferimos coronarla con una pasta artesanal que hacemos con frutos secos y sin azúcar. Una explosión de sabores y contrastes que te hará flipar.",
+      "image": "https://www.pexels.com/es-es/foto/comida-plato-flores-postre-14781509/",
+      "piece": "https://www.pexels.com/es-es/foto/pastel-en-rodajas-en-un-plato-de-ceramica-blanca-junto-a-un-tenedor-de-plata-5594490/"
+    },
+    {
+      "id": 3,
+      "name": "Tarta de frutos del bosque y Chocolate blanco",
+      "size": "Grande para 12 - 14 raciones",
+      "price": 35,
+      "description": "Bizcocho jugoso de vainilla cubierto con nuestro buttercream de chocolate blanco y frutos del bosque. Una combinación que nunca falla y que los más pequeños adoran. También disponible en versión vegana.",
+      "image": "https://www.pexels.com/es-es/foto/mujer-sin-rostro-cocina-panaderia-7525168/",
+      "piece": "https://www.pexels.com/es-es/foto/comida-plato-mesa-cocina-7525193/"
+    },
+    {
+      "id": 4,
+      "name": "Cheesecake de naranja",
+      "size": "Pequeña para 5 raciones",
+      "price": 19,
+      "description": "Tarta de queso fría con base de galleta y mermelada de naranja.",
+      "image": "https://www.pexels.com/es-es/foto/pastel-al-horno-en-plato-de-ceramica-2035737/",
+      "piece": "https://www.pexels.com/es-es/foto/pastel-en-plato-blanco-2035738/"
+    },
+    {
+      "id": 5,
+      "name": "Tarta Red Velvet",
+      "size": "Pequeña para 5 raciones",
+      "price": 17,
+      "description": "Bizcocho Rojo de Vainilla y cacao cubierto y relleno de suave y dulce crema de queso.",
+      "image": "https://www.pexels.com/es-es/foto/frutas-postre-pastel-dulces-6133305/",
+      "piece": "https://www.pexels.com/es-es/foto/postre-pastel-dulces-productos-horneados-6133303/"
+    },
+    {
+      "id": 6,
+      "name": "Tarta Tres Leches",
+      "size": "Media para 8 - 10 raciones",
+      "price": 29,
+      "description": "Bizcocho mojado en leche, leche condensada y leche evaporada cubierto de merengue.",
+      "image": "https://www.pexels.com/es-es/foto/comida-plato-azucar-postre-4110005/",
+      "piece": "https://www.pexels.com/es-es/foto/comida-plato-azucar-postre-4110001/"
+    },
+    {
+      "id": 7,
+      "name": "Tarta Brigadeiro",
+      "size": "Media para 8 - 10 raciones",
+      "price": 29,
+      "description": "Bizcocho de cacao, cobertura de brigadeiro y virutas de chocolate.",
+      "image": "https://www.pexels.com/es-es/foto/comida-chocolate-dulce-pastel-14493562/",
+      "piece": "https://www.pexels.com/es-es/foto/comida-chocolate-postre-dulce-14493566/"
+    },
+    {
+      "id": 8,
+      "name": "Tarta Navidad",
+      "size": "Media para 8 - 10 raciones",
+      "price": 29,
+      "description": "Bizcocho de zanahoria relleno y cubierta de crema suave y dulce de queso con nueces.",
+      "image": "https://www.pexels.com/es-es/foto/comida-postre-dulce-navidad-14695236/",
+      "piece": "https://www.pexels.com/es-es/foto/comida-postre-dulce-navidad-14695239/"
+    }
+  ],
+  "cookies": [
+    {
+      "id": 1,
+      "name": "Cookies",
+      "piece": 6,
+      "price": 16,
+      "description": "Sabor a vainilla y gotas de chocolate.",
+      "image": "https://www.pexels.com/es-es/foto/galletas-marrones-189536/"
+    },
+    {
+      "id": 4,
+      "name": "Dulce de leche",
+      "price": 6.5,
+      "piece": 3,
+      "description": "Galletas de jengibre rellanas de dulce de leche y cobertura de chocolate.",
+      "image": "https://www.pexels.com/es-es/foto/chocolate-postre-galletas-delicioso-6449392/"
+    },
+    {
+      "id": 5,
+      "name": "Mora",
+      "price": 6.5,
+      "piece": 3,
+      "description": "Galletas sabor a vainilla rellanas de mermelada de mora y cobertura de chocolate.",
+      "image": "https://www.pexels.com/es-es/foto/frambuesa-en-galleta-1009841/"
+    },
+    {
+      "id": 6,
+      "name": "Avena y coco",
+      "price": 6.5,
+      "piece": 3,
+      "description": "Galletas de avena y coco rallado",
+      "image": "https://www.pexels.com/es-es/foto/comida-apilar-galletas-hecho-en-casa-8432710/"
+    }
+  ],
+  "cupcakes": [
+    {
+      "id": 1,
+      "name": "Red Velvet",
+      "price": 30,
+      "piece": 12,
+      "description": "Bizcocho Rojo de Vainilla y virutas de chocolate.",
+      "image": "https://www.pexels.com/es-es/foto/comida-postre-dulces-crema-8625935/"
+    },
+    {
+      "id": 2,
+      "name": "Frescor",
+      "price": 30,
+      "piece": 12,
+      "description": "Bizcocho de Vainilla con frambuesa y mora, con un toque de limón.",
+      "image": "https://www.pexels.com/es-es/foto/cupcakes-productos-horneados-decorado-golosina-4099124/"
+    },
+    {
+      "id": 4,
+      "name": "Selva negra",
+      "price": 30,
+      "piece": 12,
+      "description": "Bizcocho de chocolate con buttercream de chocolate y frutas.",
+      "image": "https://www.pexels.com/es-es/foto/comida-mano-oscuro-textura-4109793/"
+    },
+    {
+      "id": 6,
+      "name": "Navideños",
+      "price": 30,
+      "piece": 12,
+      "description": "Bizcocho de chocolate con buttercream de chocolate blanco.",
+      "image": "https://www.pexels.com/es-es/foto/postre-dulces-delicioso-cupcakes-8210524/"
+    }
+  ],
+  "donuts": [
+    {
+      "id": 1,
+      "name": "Colorines",
+      "price": 8,
+      "piece": 6,
+      "image": "https://www.pexels.com/es-es/foto/comida-azucar-colorido-caramelo-4686960/"
+    },
+    {
+      "id": 2,
+      "name": "Chocolate",
+      "price": 8,
+      "piece": 4,
+      "image": "https://www.pexels.com/es-es/foto/foto-de-donas-de-chocolate-3656118/"
+    },
+    {
+      "id": 3,
+      "name": "Rosquillas con chocolate",
+      "price": 8,
+      "piece": 4,
+      "image": "https://www.pexels.com/es-es/foto/donuts-de-chocolate-3584882/"
+    },
+    {
+      "id": 4,
+      "name": "Unicornio",
+      "price": 8,
+      "piece": 4,
+      "image": "https://www.pexels.com/es-es/foto/donuts-en-un-plato-3604656/"
+    },
+    {
+      "id": 5,
+      "name": "Rellenos",
+      "price": 8,
+      "piece": 4,
+      "image": "https://www.pexels.com/es-es/foto/pan-integral-sobre-una-tabla-de-cortar-de-madera-marron-6150701/"
+    },
+    {
+      "id": 6,
+      "name": "Asustador",
+      "price": 8,
+      "piece": 4,
+      "image": "https://www.pexels.com/es-es/foto/donuts-de-vampiro-en-un-plato-5582253/"
+    },
+    {
+      "name": "",
+      "price": "",
+      "piece": "",
+      "image": "",
+      "id": 7
+    },
+    {
+      "name": "",
+      "price": "",
+      "piece": "",
+      "image": "",
+      "id": 8
+    }
+  ],
+  "note": [
+    {
+      "id": 1,
+      "title": "BIZCOCHO DE LIMÓN Y ALMENDRA",
+      "stars": 5,
+      "message": "No puede ser más rico la combinación de ingredientes tan sencillos. El Bizcocho de limón y almendra que hoy te comparto sale de maravilla y sus dos sabores hacen del combo una locura infinita."
+    }
+  ],
+  "users": [
+    {
+      "id": 1,
+      "email": "anah@gmail.com",
+      "pwd": "123456",
+      "firstname": "Ana",
+      "lastname": "Hartmann",
+      "phone": "670000063",
+      "address": "calle de los dulces, 1",
+      "city": "Madrid",
+      "cp": "28002"
+    },
+    {
+      "email": "anah@hotmail.com",
+      "password": "$2a$10$ve0w5IbR6am3pvXbCP5gn.2KUjwIgtqWYZXxewtW.TWI8Y/rMoKWi",
+      "id": 2
+    },
+    {
+      "email": "jaime@gmail.com",
+      "password": "$2a$10$YRNw5oOW1lYvDZz/OaU4gOg3/K8L8t/yJr.Z/FHGPvXaMdcteb1hW",
+      "firstname": "Jaime",
+      "lastname": "HARTMANN",
+      "phone": 670022525,
+      "address": "calle de los limones, 1",
+      "city": "MADRID",
+      "cp": 28000,
+      "id": 3
+    },
+    {
+      "email": "anab@hotmail.com",
+      "password": "$2a$10$7Bha9WXqm1vsVBfXZg/TY.3HcLX2Nxin.IkyJwy9lBAMx9rIq8w6e",
+      "firstname": "Ana ",
+      "lastname": "Blanco ",
+      "phone": 670012345,
+      "address": "calle de los limones, 1",
+      "city": "León",
+      "cp": 28005,
+      "id": 4
+    },
+    {
+      "email": "caca@culo",
+      "password": "$2a$10$YR4yb0IB.GdOn5FLXCEqrOu51hq5O6WDzyvkX/lr3Wgf./QN7JnUW",
+      "firstname": "tomas",
+      "lastname": "Chao",
+      "phone": 670000207,
+      "address": "calle de los limones, 1",
+      "city": "MADRID",
+      "cp": 28003,
+      "id": 5
+    }
+  ]
+}

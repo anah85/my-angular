@@ -1,0 +1,12 @@
+<form>
+<div>
+  <h2>Acceder</h2>
+  <p>Inicie sesión aquí con su email y contraseña</p>
+  <input [(ngModel)]="email" class="form-control" type="email" placeholder="ejemplo@email.com" name="email">
+</div>
+<div>
+  <input [(ngModel)]="pwd" class="form-control"  type="password" placeholder="contraseña" name="password">
+  <small>{{error}}</small>
+</div>
+  <button (click)="login()">Entrar</button>
+</form>

@@ -1,0 +1,21 @@
+<div class="container">
+    <img class="card-section" src="{{donut?.image}}" alt="{{donut?.name}}">
+    <h5>{{donut?.name}}</h5>
+    <p>Unidad: {{donut?.piece}}</p>
+    <div class="botones">
+        <button (click)="delete(donut.id)">Borrar</button>
+        <button routerLink="/donuts" >Volver</button>
+       </div>
+</div>
+<div class="form">
+    <h3>Donuts</h3>
+  <form [formGroup]="donutsForm" (ngSubmit)="onSubmit()">
+    <input formControlName="name" placeholder="Nombre de la rosquilla"/>
+    <input formControlName="price" placeholder="8.00"/>
+    <input formControlName="piece" placeholder="unidad"/>
+    <input formControlName="image" placeholder="image"/>
+  <button type="submit">Añadir</button>
+  <app-new-donuts [newDonut]="newDonuts"></app-new-donuts>
+  </form>
+  </div>
+  

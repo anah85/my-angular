@@ -1,0 +1,26 @@
+<div class="container">
+      <section class="card-section" *ngFor="let cookie of cookiesList">
+      <div class="card">
+        <img src="../../../assets/BakeryLogo - cookies.png" alt="{{cookie.name}}">
+        <div class="card-header">
+          <h1>{{cookie.name}}</h1>
+          <h2>{{cookie.price}} €</h2>
+        </div>
+        <span class="hint-star star">
+          <i class="fa fa-star" aria-hidden="true"></i>
+          <i class="fa fa-star" aria-hidden="true"></i>
+          <i class="fa fa-star" aria-hidden="true"></i>
+          <i class="fa fa-star-half-o" aria-hidden="true"></i>
+          <i class="fa fa-star-o" aria-hidden="true"></i>
+        </span>
+        <div class="card-body">
+          <p>{{cookie.size}}</p>
+          <p>{{cookie.description}}</p>
+        </div>
+          <div class="card-footer">
+            <button routerLink="/cookies/{{cookie.id}}" >ver más</button>
+            <button>Comprar</button>
+          </div>
+        </div>
+      </section>
+    </div>
