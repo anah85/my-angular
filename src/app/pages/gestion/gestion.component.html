@@ -1,10 +1,16 @@
-
- <form [formGroup]="gestionForm" (ngSubmit)="onSubmit">
-  <input formControlName="title" placeholder="title">
-  <input formControlName="message" placeholder="message">
-  <input formControlName="stars" placeholder="stars">
-
-  <button type="submit">Añadir</button>
-
-
+<div class="formulario">
+  <h3>Donuts</h3>
+<form [formGroup]="donutsForm" (ngSubmit)="onSubmit()">
+  <input formControlName="name" placeholder="Nombre de la rosquilla"/>
+  <input formControlName="price" placeholder="8.00"/>
+  <input formControlName="piece" placeholder="unidad"/>
+  <input formControlName="image" placeholder="image"/>
+<button type="submit">Añadir</button>
 </form>
+<div>
+  <h5>{{newDonuts.name}}</h5>
+  <p>{{newDonuts.price}}</p>
+  <p>{{newDonuts.piece}}</p>
+  <img src="{{newDonuts.image}}" alt="">
+</div>
+</div>

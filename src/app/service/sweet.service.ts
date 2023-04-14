@@ -1,6 +1,6 @@
 import { HttpClient } from '@angular/common/http';
 import { Injectable } from '@angular/core';
-import { Observable } from 'rxjs';
+
 
 @Injectable({
   providedIn: 'root'
@@ -10,11 +10,29 @@ export class SweetService {
 //url: string = "http://localhost:3000"
 
 constructor( private http: HttpClient ) {}
-public gestionData={
-  title:"",
-  message:"",
-  stars:"",
+
+public donutsData={
+  name: "",
+  price:"",
+  piece: "",
+  image:"",
   id: ""
+}
+//carga todo
+getDonuts(){
+  return this.http.get('http://localhost:3000/donuts')
+}
+//carga individual
+getDonutId(id:number){
+  return this.http.get(`${'http://localhost:3000/donuts'}/${id}`)
+}
+//recibe los datos
+postDonuts(donuts : any){
+  return this.http.post('http://localhost:3000/donuts',donuts)
+}
+//eliminar 
+deleteDonuts(id:number){
+  return this.http.delete(`${'http://localhost:3000/donuts'}/${id}`)
 }
 
 public cakesData= {
@@ -25,6 +43,20 @@ public cakesData= {
   image:"",
   id: ""
 }
+
+getCakes(){
+  return this.http.get('http://localhost:3000/cakes')
+}
+getCakeId(id:number){
+  return this.http.get(`${'http://lo3000calhost:/cakes'}/${id}`)
+}
+// postCakes(cakes : any){
+//   return this.http.post('http://localhost:3000/cakes',this.cakesData)
+// }
+deleteCakes(id:number){
+  return this.http.delete(`${'http://localhost:3000/cakes'}/${id}`)
+}
+
 public cookiesData={
   name: "",
   piece: "",
@@ -33,6 +65,19 @@ public cookiesData={
   image:"",
   id: ""
 }
+getCookies(){
+  return this.http.get('http://localhost:3000/cookies')
+}
+getCookieId(id:number){
+  return this.http.get(`${'http://localhost:3000/cookies'}/${id}`)
+}
+// postCookies(cookies : any){
+//   return this.http.post('http://localhost:3000/cookies',this.cookiesData)
+// }
+deleteCookies(id:number){
+  return this.http.delete(`${'http://localhost:3000/cookies'}/${id}`)
+}
+
 public cupcakesData={
   name: "",
   price:"",
@@ -41,73 +86,17 @@ public cupcakesData={
   image:"",
   id: ""
 }
-public donutsData={
-  name: "",
-  price:"",
-  piece: "",
-  image:"",
-  id: ""
-}
-
-getGestion(){
-  return this.http.get('http://localhost:3000/note')
-}
-getCakes(){
-  return this.http.get('http://localhost:3000/cakes')
-}
-getCookies(){
-  return this.http.get('http://localhost:3000/cookies')
-}
 getCupcakes(){
   return this.http.get('http://localhost:3000/cupcakes')
-}
-getDonuts(){
-  return this.http.get('http://localhost:3000/donuts')
-}
-
-getGestionId(id:number){
-  return this.http.get(`${'http://localhost:3000/note'}/${id}`)
-}
-getCakeId(id:number){
-  return this.http.get(`${'http://lo3000calhost:/cakes'}/${id}`)
-}
-getCookieId(id:number){
-  return this.http.get(`${'http://localhost:3000/cookies'}/${id}`)
 }
 getCupcakeId(id:number){
   return this.http.get(`${'http://localhost:3000/cupcakes'}/${id}`)
 }
-getDonutId(id:number){
-  return this.http.get(`${'http://localhost:3000/donuts'}/${id}`)
-}
-
-postGestion(gestion : any){
-  return this.http.post('http://localhost:3000/note',this.gestionData)
-}
-postCakes(cakes : any){
-  return this.http.post('http://localhost:3000/cakes',this.cakesData)
-}
-postCookies(cookies : any){
-  return this.http.post('http://localhost:3000/cookies',this.cookiesData)
-}
-postCupcakes(cupcakes : any){
-  return this.http.post('http://localhost:3000/cupcakes',this.cupcakesData)
-}
-postDonuts(donuts : any){
-  return this.http.post('http://localhost:3000/donuts',this.donutsData)
-}
-
-
-deleteCakes(id:number){
-  return this.http.delete(`${'http://localhost:3000/cakes'}/${id}`)
-}
-deleteCookies(id:number){
-  return this.http.delete(`${'http://localhost:3000/cookies'}/${id}`)
-}
+// postCupcakes(cupcakes : any){
+//   return this.http.post('http://localhost:3000/cupcakes',this.cupcakesData)
+// }
 deleteCupcakes(id:number){
   return this.http.delete(`${'http://localhost:3000/cupcakes'}/${id}`)
 }
-deleteDonuts(id:number){
-  return this.http.delete(`${'http://localhost:3000/donuts'}/${id}`)
-}
+
 }

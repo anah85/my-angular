@@ -27,7 +27,7 @@ import { CookiesIdComponent } from './pages/cookies/cookies-id/cookies-id.compon
 import { CupcakesIdComponent } from './pages/cupcakes/cupcakes-id/cupcakes-id.component';
 import { DonutsIdComponent } from './pages/donuts/donuts-id/donuts-id.component';
 import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
-import { NewDonutsComponent } from './pages/donuts/new-donuts/new-donuts.component';
+
 
 
 
@@ -50,7 +50,6 @@ import { NewDonutsComponent } from './pages/donuts/new-donuts/new-donuts.compone
     CookiesIdComponent,
     CupcakesIdComponent,
     DonutsIdComponent,
-    NewDonutsComponent
   ],
   imports: [
     BrowserModule,

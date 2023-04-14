@@ -1,8 +1,13 @@
+.formulario{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
 form{
   margin:20px;
 display:flex;
 flex-direction: column;
-align-items: center;
+align-items: stretch;
 justify-content: center;
 }
 input{

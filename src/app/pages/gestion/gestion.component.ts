@@ -1,39 +1,39 @@
-import { Component, OnInit } from '@angular/core';
 import { Router } from '@angular/router';
-import { SweetService } from 'src/app/service/sweet.service';
+
+import { Component } from '@angular/core';
 import { FormBuilder, FormGroup, Validators } from '@angular/forms';
+import { SweetService } from 'src/app/service/sweet.service';
 
 @Component({
   selector: 'app-gestion',
   templateUrl: './gestion.component.html',
-  styleUrls: ['./gestion.component.scss']
+  styleUrls: ['./gestion.component.scss'],
 })
-export class GestionComponent implements OnInit{
-  gestionForm!: FormGroup;
-  resenasList: any[] = [];
-
-constructor(private formBuilder: FormBuilder, private sweetService: SweetService, private router: Router){}
-//llamando la info que viene del servicio
-public newGestion = this.sweetService.gestionData;
-public gestionId = this.sweetService.gestionData.id;
-
-ngOnInit() : void{
-  //datos requeridos del formulario
-this.gestionForm = this.formBuilder.group({
-  title:[this.newGestion.title,[Validators.required]],
-  message:[this.newGestion.message,[Validators.required, Validators.minLength(5)]],
-  stars:[this.newGestion.stars,[Validators.required]],
-});
-//actualizando y guardando datos del formulario
-this.gestionForm.valueChanges.subscribe(changes=>{
-  this.newGestion =changes
+export class GestionComponent {
+  
+ donutsForm!: FormGroup;
+ 
+  constructor(private formBuilder: FormBuilder, private sweetService: SweetService, private router: Router) {}
+ //trae la info, por defecto, del servicio
+  public newDonuts = this.sweetService.donutsData;
+  public donutsId = this.sweetService.donutsData.id;
+//construcción
+  ngOnInit(): void {
+ this.donutsForm = this.formBuilder.group({
+      name:[this.newDonuts.name,[Validators.required, Validators.minLength(1)]],
+      price:[this.newDonuts.price,[Validators.required]],
+      piece:[this.newDonuts.piece,[Validators.required]],
+      image:[this.newDonuts.image,[Validators.required, Validators.minLength(1)]],
+    });
+    //recogiendo datos del formulario y actualización
+    this.donutsForm.valueChanges.subscribe((changes) => {
+      this.newDonuts = changes;
+    });
+  }
+  onSubmit(){
+this.sweetService.postDonuts(this.newDonuts).subscribe((data)=> {
+this.router.navigate(["/donuts"])
 })
-}
-//aquí llega la info
-onSubmit(){
-  this.sweetService.postGestion(this.newGestion).subscribe((data)=>{
-    this.router.navigate(["/note"])
-  })
-}
-
+this.donutsForm.reset();
+  }
 }

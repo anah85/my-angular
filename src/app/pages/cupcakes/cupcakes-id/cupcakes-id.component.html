@@ -1,10 +1,12 @@
 <div class="container">
-    <img class="card-section" src="../../../../assets/BakeryLogo - cupcakes.png" alt="{{cupcake?.name}}">
+    <img src="{{cupcake?.image}}" alt="{{cupcake?.name}}">
+    <div class="card">  
     <h5>{{cupcake?.name}}</h5>
     <p>Descripción: {{cupcake?.description}}</p>
     <p>Unidad: {{cupcake?.piece}}</p>
+</div>
     <div class="botones">
-        <button (click)="delete(cupcake.id)">Borrar</button>
+        <button (click)="delete(cupcake?.id)">Borrar</button>
         <button routerLink="/cupcakes" >Volver</button>
        </div>
 </div>

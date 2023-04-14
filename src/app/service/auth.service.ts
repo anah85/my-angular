@@ -37,7 +37,7 @@ export class AuthService {
     return this.http.patch(`http://localhost:3000/users/${userId}`, {firstname: nombrenuevo})
   }
 
-//si el usuario di que no acepta cookies hay que hacer un deleteall
+//si el usuario di que no acepta cookies hay que hacer un deletar
   logout(){
     this.cookies.delete("user");
   }

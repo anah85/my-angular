@@ -15,8 +15,8 @@ export class CookiesIdComponent implements OnInit {
 
 
   ngOnInit(): void {
-    this.activatedRoute.paramMap.subscribe(elemento => {
-      this.id = Number(elemento.get("id"));
+    this.activatedRoute.paramMap.subscribe(params => {
+      this.id = Number(params.get("id"));
     })
     this.sweetService.getCookieId(this.id).subscribe((data: any) => {
       this.cookie = data

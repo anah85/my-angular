@@ -1,7 +1,7 @@
 <div class="container">
   <section class="card-section" *ngFor="let cupcake of cupcakesList">
   <div class="card">
-  <img src="./assets/BakeryLogo - cupcakes.png" alt="{{cupcake.name}}">
+    <img src="{{cupcake.image}}" alt="{{cupcake.name}}">
   <div class="card-header">
     <h1>{{cupcake.name}}</h1>
     <h2>{{cupcake.price}} €</h2>
