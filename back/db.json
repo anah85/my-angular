@@ -6,8 +6,7 @@
       "size": "Grande para 12 - 14 raciones",
       "price": 35,
       "description": "Por ahí se encuentran muchas tartas de chocolate, pero ninguna como la nuestra. Bizcocho jugoso de chocolate a base de cacao puro, cubierto con nuestro buttercream artesanal cremoso y chocolatoso. Tanto si eres chocolover como si no, esta tarta te volverá loco.",
-      "image": "https://www.pexels.com/es-es/foto/comida-oscuro-azucar-chocolate-4109998/",
-      "piece": "https://www.pexels.com/es-es/foto/comida-oscuro-azucar-leche-4109997/"
+      "image": "https://images.pexels.com/photos/4109998/pexels-photo-4109998.jpeg?"
     },
     {
       "id": 2,
@@ -15,8 +14,7 @@
       "size": "Media para 8 - 10 raciones",
       "price": 25,
       "description": "La opción vegana de nuestra tarta de zanahoria es un bizcocho especiado y jugoso, que, en vez de llevar la tradicional crema de queso, preferimos coronarla con una pasta artesanal que hacemos con frutos secos y sin azúcar. Una explosión de sabores y contrastes que te hará flipar.",
-      "image": "https://www.pexels.com/es-es/foto/comida-plato-flores-postre-14781509/",
-      "piece": "https://www.pexels.com/es-es/foto/pastel-en-rodajas-en-un-plato-de-ceramica-blanca-junto-a-un-tenedor-de-plata-5594490/"
+      "image": "https://images.pexels.com/photos/4748573/pexels-photo-4748573.jpeg?"
     },
     {
       "id": 3,
@@ -24,17 +22,15 @@
       "size": "Grande para 12 - 14 raciones",
       "price": 35,
       "description": "Bizcocho jugoso de vainilla cubierto con nuestro buttercream de chocolate blanco y frutos del bosque. Una combinación que nunca falla y que los más pequeños adoran. También disponible en versión vegana.",
-      "image": "https://www.pexels.com/es-es/foto/mujer-sin-rostro-cocina-panaderia-7525168/",
-      "piece": "https://www.pexels.com/es-es/foto/comida-plato-mesa-cocina-7525193/"
+      "image": "https://images.pexels.com/photos/7525168/pexels-photo-7525168.jpeg?"
     },
     {
       "id": 4,
-      "name": "Cheesecake de naranja",
+      "name": "Cheesecake de cereza",
       "size": "Pequeña para 5 raciones",
       "price": 19,
-      "description": "Tarta de queso fría con base de galleta y mermelada de naranja.",
-      "image": "https://www.pexels.com/es-es/foto/pastel-al-horno-en-plato-de-ceramica-2035737/",
-      "piece": "https://www.pexels.com/es-es/foto/pastel-en-plato-blanco-2035738/"
+      "description": "Tarta de queso fría con base de galleta y mermelada de cereza.",
+      "image": "https://images.pexels.com/photos/14218065/pexels-photo-14218065.jpeg?"
     },
     {
       "id": 5,
@@ -42,8 +38,7 @@
       "size": "Pequeña para 5 raciones",
       "price": 17,
       "description": "Bizcocho Rojo de Vainilla y cacao cubierto y relleno de suave y dulce crema de queso.",
-      "image": "https://www.pexels.com/es-es/foto/frutas-postre-pastel-dulces-6133305/",
-      "piece": "https://www.pexels.com/es-es/foto/postre-pastel-dulces-productos-horneados-6133303/"
+      "image": "https://images.pexels.com/photos/6133305/pexels-photo-6133305.jpeg?"
     },
     {
       "id": 6,
@@ -51,8 +46,7 @@
       "size": "Media para 8 - 10 raciones",
       "price": 29,
       "description": "Bizcocho mojado en leche, leche condensada y leche evaporada cubierto de merengue.",
-      "image": "https://www.pexels.com/es-es/foto/comida-plato-azucar-postre-4110005/",
-      "piece": "https://www.pexels.com/es-es/foto/comida-plato-azucar-postre-4110001/"
+      "image": "https://images.pexels.com/photos/4110005/pexels-photo-4110005.jpeg?"
     },
     {
       "id": 7,
@@ -60,8 +54,7 @@
       "size": "Media para 8 - 10 raciones",
       "price": 29,
       "description": "Bizcocho de cacao, cobertura de brigadeiro y virutas de chocolate.",
-      "image": "https://www.pexels.com/es-es/foto/comida-chocolate-dulce-pastel-14493562/",
-      "piece": "https://www.pexels.com/es-es/foto/comida-chocolate-postre-dulce-14493566/"
+      "image": "https://images.pexels.com/photos/6341564/pexels-photo-6341564.jpeg?"
     },
     {
       "id": 8,
@@ -69,8 +62,23 @@
       "size": "Media para 8 - 10 raciones",
       "price": 29,
       "description": "Bizcocho de zanahoria relleno y cubierta de crema suave y dulce de queso con nueces.",
-      "image": "https://www.pexels.com/es-es/foto/comida-postre-dulce-navidad-14695236/",
-      "piece": "https://www.pexels.com/es-es/foto/comida-postre-dulce-navidad-14695239/"
+      "image": "https://images.pexels.com/photos/14377768/pexels-photo-14377768.jpeg?"
+    },
+    {
+      "id": 9,
+      "name": "Tarta Dulce de Leche",
+      "size": "Pequeña para 5 raciones",
+      "price": 15,
+      "description": "Brownie con dulce de leche.",
+      "image": "https://images.pexels.com/photos/2567854/pexels-photo-2567854.png?"
+    },
+    {
+      "name": "deseo",
+      "size": "pequeña",
+      "price": "15",
+      "description": "muy rica",
+      "image": "https://images.pexels.com/photos/16176712/pexels-photo-16176712.jpeg?auto=compress&cs=tinysrgb&w=1600",
+      "id": 10
     }
   ],
   "cookies": [
@@ -80,31 +88,31 @@
       "piece": 6,
       "price": 16,
       "description": "Sabor a vainilla y gotas de chocolate.",
-      "image": "https://www.pexels.com/es-es/foto/galletas-marrones-189536/"
-    },
-    {
-      "id": 4,
-      "name": "Dulce de leche",
-      "price": 6.5,
-      "piece": 3,
-      "description": "Galletas de jengibre rellanas de dulce de leche y cobertura de chocolate.",
-      "image": "https://www.pexels.com/es-es/foto/chocolate-postre-galletas-delicioso-6449392/"
+      "image": "https://images.pexels.com/photos/301972/pexels-photo-301972.jpeg?"
     },
     {
       "id": 5,
-      "name": "Mora",
+      "name": "Helloween",
       "price": 6.5,
       "piece": 3,
-      "description": "Galletas sabor a vainilla rellanas de mermelada de mora y cobertura de chocolate.",
-      "image": "https://www.pexels.com/es-es/foto/frambuesa-en-galleta-1009841/"
+      "description": "Galletas de avena y mermelada de mora",
+      "image": "https://images.pexels.com/photos/5584278/pexels-photo-5584278.jpeg?"
     },
     {
       "id": 6,
-      "name": "Avena y coco",
+      "name": "Personalizadas",
       "price": 6.5,
       "piece": 3,
-      "description": "Galletas de avena y coco rallado",
-      "image": "https://www.pexels.com/es-es/foto/comida-apilar-galletas-hecho-en-casa-8432710/"
+      "description": "Galletas personalizadas para eventos",
+      "image": "https://images.pexels.com/photos/5832690/pexels-photo-5832690.jpeg?"
+    },
+    {
+      "id": 7,
+      "name": "Lote cookies",
+      "price": 10,
+      "piece": 7,
+      "description": "Coookies de varios sabores",
+      "image": "https://images.pexels.com/photos/14000524/pexels-photo-14000524.jpeg?"
     }
   ],
   "cupcakes": [
@@ -114,7 +122,7 @@
       "price": 30,
       "piece": 12,
       "description": "Bizcocho Rojo de Vainilla y virutas de chocolate.",
-      "image": "https://www.pexels.com/es-es/foto/comida-postre-dulces-crema-8625935/"
+      "image": "https://images.pexels.com/photos/8625935/pexels-photo-8625935.jpeg?"
     },
     {
       "id": 2,
@@ -122,89 +130,90 @@
       "price": 30,
       "piece": 12,
       "description": "Bizcocho de Vainilla con frambuesa y mora, con un toque de limón.",
-      "image": "https://www.pexels.com/es-es/foto/cupcakes-productos-horneados-decorado-golosina-4099124/"
+      "image": "https://images.pexels.com/photos/4099124/pexels-photo-4099124.jpeg?"
     },
     {
-      "id": 4,
+      "id": 3,
       "name": "Selva negra",
       "price": 30,
       "piece": 12,
       "description": "Bizcocho de chocolate con buttercream de chocolate y frutas.",
-      "image": "https://www.pexels.com/es-es/foto/comida-mano-oscuro-textura-4109793/"
+      "image": "https://images.pexels.com/photos/1026123/pexels-photo-1026123.jpeg?"
+    },
+    {
+      "id": 5,
+      "name": "Fiesta",
+      "price": 30,
+      "piece": 12,
+      "description": "Bizcocho de platano con buttercream de vainilla.",
+      "image": "https://images.pexels.com/photos/15261121/pexels-photo-15261121.png?"
     },
     {
       "id": 6,
-      "name": "Navideños",
+      "name": "Lotus",
       "price": 30,
       "piece": 12,
-      "description": "Bizcocho de chocolate con buttercream de chocolate blanco.",
-      "image": "https://www.pexels.com/es-es/foto/postre-dulces-delicioso-cupcakes-8210524/"
+      "description": "Bizcocho y buttercream de galleta Lotus.",
+      "image": "https://images.pexels.com/photos/11568780/pexels-photo-11568780.jpeg?"
+    },
+    {
+      "id": 7,
+      "name": "Navidad",
+      "price": 30,
+      "piece": 12,
+      "description": "Bizcocho y buttercream de chocolate blanco.",
+      "image": "https://images.pexels.com/photos/6033667/pexels-photo-6033667.jpeg?"
     }
   ],
   "donuts": [
     {
-      "id": 1,
-      "name": "Colorines",
-      "price": 8,
-      "piece": 6,
-      "image": "https://www.pexels.com/es-es/foto/comida-azucar-colorido-caramelo-4686960/"
-    },
-    {
-      "id": 2,
-      "name": "Chocolate",
-      "price": 8,
-      "piece": 4,
-      "image": "https://www.pexels.com/es-es/foto/foto-de-donas-de-chocolate-3656118/"
-    },
-    {
       "id": 3,
-      "name": "Rosquillas con chocolate",
+      "name": "Rosquillas con chocolate y coco",
       "price": 8,
       "piece": 4,
-      "image": "https://www.pexels.com/es-es/foto/donuts-de-chocolate-3584882/"
+      "image": "https://images.pexels.com/photos/3584882/pexels-photo-3584882.jpeg?"
     },
     {
       "id": 4,
       "name": "Unicornio",
       "price": 8,
       "piece": 4,
-      "image": "https://www.pexels.com/es-es/foto/donuts-en-un-plato-3604656/"
+      "image": "https://images.pexels.com/photos/3604656/pexels-photo-3604656.jpeg?"
     },
     {
       "id": 5,
-      "name": "Rellenos",
+      "name": "Picnic",
       "price": 8,
       "piece": 4,
-      "image": "https://www.pexels.com/es-es/foto/pan-integral-sobre-una-tabla-de-cortar-de-madera-marron-6150701/"
+      "image": "https://images.pexels.com/photos/11427467/pexels-photo-11427467.jpeg?"
     },
     {
       "id": 6,
-      "name": "Asustador",
+      "name": "Doblete",
       "price": 8,
       "piece": 4,
-      "image": "https://www.pexels.com/es-es/foto/donuts-de-vampiro-en-un-plato-5582253/"
+      "image": "https://images.pexels.com/photos/3031205/pexels-photo-3031205.jpeg?"
     },
     {
-      "name": "",
-      "price": "",
-      "piece": "",
-      "image": "",
+      "name": "Bombón",
+      "price": 10,
+      "piece": 3,
+      "image": "https://images.pexels.com/photos/3338681/pexels-photo-3338681.jpeg?",
       "id": 7
     },
     {
-      "name": "",
-      "price": "",
-      "piece": "",
-      "image": "",
+      "name": "Glacé",
+      "price": 4,
+      "piece": 2,
+      "image": "https://images.pexels.com/photos/12659955/pexels-photo-12659955.jpeg?",
       "id": 8
-    }
-  ],
-  "note": [
+    },
     {
-      "id": 1,
-      "title": "BIZCOCHO DE LIMÓN Y ALMENDRA",
-      "stars": 5,
-      "message": "No puede ser más rico la combinación de ingredientes tan sencillos. El Bizcocho de limón y almendra que hoy te comparto sale de maravilla y sus dos sabores hacen del combo una locura infinita."
+      "name": "Nocilla",
+      "price": "6",
+      "piece": "3",
+      "image": "https://images.pexels.com/photos/14160765/pexels-photo-14160765.jpeg?",
+      "id": 9
     }
   ],
   "users": [
@@ -236,11 +245,11 @@
       "id": 3
     },
     {
-      "email": "anab@hotmail.com",
+      "email": "anab1@hotmail.com",
       "password": "$2a$10$7Bha9WXqm1vsVBfXZg/TY.3HcLX2Nxin.IkyJwy9lBAMx9rIq8w6e",
-      "firstname": "Ana ",
-      "lastname": "Blanco ",
-      "phone": 670012345,
+      "firstname": "Ana!!!!!!!",
+      "lastname": "Blanco aaaa",
+      "phone": "99999999",
       "address": "calle de los limones, 1",
       "city": "León",
       "cp": 28005,
@@ -256,6 +265,17 @@
       "city": "MADRID",
       "cp": 28003,
       "id": 5
+    },
+    {
+      "email": "bana@gmail.com",
+      "password": "$2a$10$rlzFwfr5ES2/buTy9cdS2ekL1gN/z8IebaHIKJH1vJASp49i1TjJa",
+      "firstname": "bianca",
+      "lastname": "fernandez",
+      "phone": 670000113,
+      "address": "calle piton 2 ",
+      "city": "madrid",
+      "cp": 28006,
+      "id": 6
     }
   ]
 }

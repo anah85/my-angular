@@ -8,3 +8,7 @@ import { Component, Input } from '@angular/core';
 export class HomeComponent {
 @Input() resenasList! : any;
 }
+//CREAR UN SLIDER carousel ANGULAR?
+
+
+

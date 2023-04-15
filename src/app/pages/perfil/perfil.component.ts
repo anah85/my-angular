@@ -15,6 +15,12 @@ export class PerfilComponent implements OnInit {
     this.user= this.authService.getUser()
   }
 
+  editar(){
+    this.authService.editar(this.user.id, this.user).subscribe(()=>{
+      alert("¡Usuario actualizado correctamente!")
+    })
+  }
+
 
 
 }

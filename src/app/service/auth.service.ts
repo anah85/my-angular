@@ -32,9 +32,17 @@ export class AuthService {
     }
     )
   }
+// como editar datos?
 
-  cambiarEmail(userId:number, nombrenuevo:string){
-    return this.http.patch(`http://localhost:3000/users/${userId}`, {firstname: nombrenuevo})
+
+
+  editar(userId:number, userNuevo: any){
+    return this.http.patch(`http://localhost:3000/users/${userId}`, {
+      firstname: userNuevo.firstname, 
+      lastname: userNuevo.lastname, 
+      email: userNuevo.email, 
+      phone: userNuevo.phone
+    })
   }
 
 //si el usuario di que no acepta cookies hay que hacer un deletar

@@ -6,7 +6,7 @@
     <p>Unidad: {{cookie?.piece}}</p>
 </div>
     <div class="botones">
-        <button (click)="delete(cookie?.id)">Borrar</button>
+        <button *ngIf="user" (click)="delete(cookie?.id)">Eliminar</button>
         <button routerLink="/cookies" >Volver</button>
        </div>
     </div>

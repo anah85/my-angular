@@ -6,7 +6,7 @@
     <p>Unidad: {{cake?.piece}}</p>
 </div>
     <div class="botones">
-        <button (click)="delete(cake?.id)">Borrar</button>
+        <button *ngIf="user" (click)="delete(cake?.id)">Eliminar</button>
         <button routerLink="/cakes" >Volver</button>
        </div>
 </div>

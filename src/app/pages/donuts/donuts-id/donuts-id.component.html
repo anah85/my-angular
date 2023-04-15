@@ -5,7 +5,7 @@
     <p>Unidad: {{donut?.piece}}</p>
   </div>
     <div class="botones">
-        <button (click)="delete(donut?.id)">Eliminar</button>
+        <button *ngIf="user" (click)="delete(donut?.id)">Eliminar</button>
         <button routerLink="/donuts" >Volver</button>
        </div>
 </div>

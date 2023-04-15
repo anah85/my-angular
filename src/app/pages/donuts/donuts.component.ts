@@ -1,3 +1,4 @@
+import { AuthService } from 'src/app/service/auth.service';
 import { Component, OnInit } from '@angular/core';
 import { SweetService } from 'src/app/service/sweet.service';
 
@@ -10,7 +11,6 @@ import { SweetService } from 'src/app/service/sweet.service';
 export class DonutsComponent implements OnInit{
 
 donutsList: any[] = [];
-
 constructor (private sweetService: SweetService){}
 
 ngOnInit(): void{

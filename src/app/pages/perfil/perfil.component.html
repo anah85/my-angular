@@ -7,24 +7,24 @@
    <div>
   <legend>
     <p for="">Nombre:</p>
-    <label class="form-control" for="">{{user.firstname}}</label>
+    <input type="text" [(ngModel)]="user.firstname">
   </legend>
 
 <legend>
     <p for="">Apellido:</p>
-    <label class="form-control" for="">{{user.lastname}}</label>
+    <input type="text" [(ngModel)]="user.lastname">
 </legend>
 
 <legend>
     <p for="">Email:</p>
-    <label class="form-control" for="">{{user.email}}</label>
+    <input type="text" [(ngModel)]="user.email">
 </legend>
 
 <legend>
     <p for="">Teléfono:</p>
-    <label class="form-control" for="">{{user.phone}}</label>
+    <input type="text" [(ngModel)]="user.phone">
 </legend>
-<button>Editar</button>
+<button (click)="editar()">Editar</button>
 <button>Borrar</button>
    </div>
   </div>
