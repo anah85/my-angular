@@ -1,4 +1,4 @@
-<div class="formulario">
+<!-- <div class="formulario">
   <h3>Donuts</h3>
 <form [formGroup]="donutsForm" (ngSubmit)="onSubmit()">
   <input formControlName="name" placeholder="Nombre de la rosquilla"/>
@@ -12,5 +12,29 @@
   <p>{{newDonuts.price}}</p>
   <p>{{newDonuts.piece}}</p>
   <img src="{{newDonuts.image}}" alt="">
+</div>
+</div> -->
+<div class="formulario">
+<div class="box">
+	<form [formGroup]="donutsForm" (ngSubmit)="onSubmit()">
+		<span class="text-center">Donuts</span>
+	<div class="input-container">
+		<input formControlName="name"/>
+		<label>Nombre de la rosquilla</label>		
+	</div>
+	<div class="input-container">		
+		<input formControlName="price"/>
+		<label>Precio</label>
+	</div>
+  <div class="input-container">		
+		<input formControlName="piece"/>
+		<label>Unidad</label>
+	</div>
+  <div class="input-container">		
+		<input formControlName="image"/>
+		<label>Fotografía</label>
+	</div>
+		<button type="submit"class="btn">Añadir</button>
+</form>	
 </div>
 </div>

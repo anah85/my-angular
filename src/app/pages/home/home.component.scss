@@ -44,8 +44,10 @@ header{
   }
   
 .home__h{
-margin: 25px;
-line-height: 2.5;
+	background-position: center;
+  padding: 5px;
+  margin: 25px;
+  line-height: 2.5;
 }
 .home__h:first-letter{
   font-size:150%;

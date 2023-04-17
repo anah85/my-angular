@@ -1,13 +1,14 @@
 <div class="container">
     <img src="{{cookie?.image}}" alt="{{cookie?.name}}">
     <div class="card">
-    <h5>{{cookie?.name}}</h5>
-    <p>Descripción: {{cookie?.description}}</p>
-    <p>Unidad: {{cookie?.piece}}</p>
-</div>
-    <div class="botones">
-        <button *ngIf="user" (click)="delete(cookie?.id)">Eliminar</button>
-        <button routerLink="/cookies" >Volver</button>
-       </div>
+      <h5>{{cookie?.name}}</h5>
+      <p>Unidad: {{cookie?.piece}}</p>
+      <p>Descripción: {{cookie?.description}}</p>
     </div>
+      <div class="botones">
+          <button *ngIf="user" (click)="delete(cookie?.id)">Eliminar</button>
+          <button routerLink="/cookies" >Volver</button>
+         </div>
+  </div>
+  
     

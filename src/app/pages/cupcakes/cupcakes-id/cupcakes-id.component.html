@@ -1,13 +1,14 @@
 <div class="container">
     <img src="{{cupcake?.image}}" alt="{{cupcake?.name}}">
-    <div class="card">  
-    <h5>{{cupcake?.name}}</h5>
-    <p>Descripción: {{cupcake?.description}}</p>
-    <p>Unidad: {{cupcake?.piece}}</p>
-</div>
-    <div class="botones">
-        <button *ngIf="user" (click)="delete(cupcake?.id)">Eliminar</button>
-        <button routerLink="/cupcakes" >Volver</button>
-       </div>
-</div>
+    <div class="card">
+      <h5>{{cupcake?.name}}</h5>
+      <p>Unidad: {{cupcake?.piece}}</p>
+      <p>Descripción: {{cupcake?.description}}</p>
+    </div>
+      <div class="botones">
+          <button *ngIf="user" (click)="delete(cupcake?.id)">Eliminar</button>
+          <button routerLink="/cupcakes" >Volver</button>
+         </div>
+  </div>
+  
     

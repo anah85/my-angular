@@ -1,12 +1,16 @@
-<form>
-<div>
-  <h2>Acceder</h2>
-  <p>Inicie sesión aquí con su email y contraseña</p>
-  <input [(ngModel)]="email" class="form-control" type="email" placeholder="ejemplo@email.com" name="email">
-</div>
-<div>
-  <input [(ngModel)]="pwd" class="form-control"  type="password" placeholder="contraseña" name="password">
+<div class="container"></div>
+<div class="box">
+	<form>
+		<span class="text-center">Acceder</span>
+	<div class="input-container">
+		<input [(ngModel)]="email" class="form-control" type="email" placeholder="ejemplo@email.com" name="email">
+		<label>E-mail</label>		
+	</div>
+	<div class="input-container">		
+		<input [(ngModel)]="pwd" class="form-control"  type="password" placeholder="contraseña" name="password">
   <small>{{error}}</small>
+		<label>Contraseña</label>
+	</div>
+		<button type="button" class="btn" (click)="login()">Entrar</button>
+</form>	
 </div>
-  <button (click)="login()">Entrar</button>
-</form>
