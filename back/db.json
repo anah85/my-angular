@@ -188,13 +188,6 @@
       "image": "https://images.pexels.com/photos/11427467/pexels-photo-11427467.jpeg?"
     },
     {
-      "id": 6,
-      "name": "Doblete",
-      "price": 8,
-      "piece": 4,
-      "image": "https://images.pexels.com/photos/3031205/pexels-photo-3031205.jpeg?"
-    },
-    {
       "name": "Bombón",
       "price": 10,
       "piece": 3,
@@ -276,6 +269,17 @@
       "city": "madrid",
       "cp": 28006,
       "id": 6
+    },
+    {
+      "email": "anac@gmail.com",
+      "password": "$2a$10$JyS7jPpWRnm1gHu2B/QcnOpUbfj3pIlHL0.D5d7S8gktK5wsujoei",
+      "firstname": "ana ca",
+      "lastname": "garcia",
+      "phone": 670000079,
+      "address": "callee  ",
+      "city": "madrid",
+      "cp": 28002,
+      "id": 7
     }
   ]
 }

@@ -1,37 +1,40 @@
-<form>
-    <h2>Registro de datos Personales</h2>
-    <div>
-        <label for="email">E-mail</label>
-        <input [(ngModel)]="email" class="form-control" type="email" placeholder="ejemplo@email.com" name="email">
+<div class="container">
+<div class="box">
+    <form>
+        <span class="text-center">Registro de datos Personales</span>
+    <div class="input-container">
+        <input type="text" [(ngModel)]="firstname" placeholder="Rita" name="firstname">
+        <label>Nombre</label>		
     </div>
-    <div>
-        <label for="password">Contraseña</label>
-        <input [(ngModel)]="pwd" class="form-control"  type="password" placeholder="contraseña" name="password">
+    <div class="input-container">		
+        <input type="text" [(ngModel)]="lastname" placeholder="Sanchez Conejo" name="lastname">
+        <label>Apellido</label>
     </div>
-    <div>
-        <label for="firstname">Nombre</label>
-        <input [(ngModel)]="firstname" class="form-control"  type="text" placeholder="Rita" name="firstname">
+    <div class="input-container">		
+        <input [(ngModel)]="email" type="email" placeholder="ejemplo@email.com" name="email">
+        <label>Email</label>
     </div>
-    <div>
-        <label for="lastname">Apellidos</label>
-        <input [(ngModel)]="lastname" class="form-control"  type="text" placeholder="Sanchez Conejo" name="lastname">
+    <div class="input-container">		
+        <input [(ngModel)]="pwd" type="password" placeholder="contraseña" name="password">
+        <label>Contraseña</label>
     </div>
-    <div>
-        <label for="phone">Teléfono</label>
-        <input [(ngModel)]="phone" type="number" placeholder="671122006" name="phone">
-    </div>
-    <div>
-        <label for="address">Dirección</label>
+    <div class="input-container">		
         <input [(ngModel)]="address" type="text" placeholder="c/ilusión nº2" name="address">
+        <label>Dirección</label>
+    </div> 
+    <div class="input-container">		
+        <input [(ngModel)]="city"  type="text" placeholder="Madrid" name="city">
+        <label>Ciudad</label>
     </div>
-    <div>
-        <label for="city">Ciudad</label>
-        <input [(ngModel)]="city" type="text" placeholder="Madrid" name="city">
+    <div class="input-container">		
+        <input type="number" [(ngModel)]="phone" placeholder="671122006" name="phone">
+        <label>Teléfono</label>
     </div>
-    <div >
-        <label for="cp">Código postal</label>
-        <input [(ngModel)]="cp" type="number" placeholder="28002" name="cp">
+    <div class="input-container">		
+        <input type="text" [(ngModel)]="cp" placeholder="28002" name="cp">
+        <label>Código postal</label>
     </div>
-
-    <button (click)="registrar()">Regístrate</button>
-</form>
+    <button type="button" class="btn"(click)="registrar()">Regístrate</button>
+    </form>	
+    </div>
+</div>

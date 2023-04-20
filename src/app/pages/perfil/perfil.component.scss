@@ -1,5 +1,5 @@
 .perfil{
-	background-image: url("https://images.pexels.com/photos/696179/pexels-photo-696179.jpeg?");
+	background-image: url("https://images.pexels.com/photos/5732159/pexels-photo-5732159.jpeg?");
 	background-position: center;
     background-origin: content-box;
     background-repeat: no-repeat;
@@ -43,7 +43,7 @@
   width:100%;
   padding:8px 0 5px 0;
   font-size:20px;
-  color:#fff;
+  color: rgb(214,12,37);
 }
 & input:focus{ 
 	border:none;	
@@ -64,7 +64,7 @@
 	cursor:pointer;
 	position:relative;
 &:hover{
-	background-color:#fff;
+	background-color:black;
 	color:rgb(214,12,37);
 	border:1px solid rgb(214,12,37);  
 	}
